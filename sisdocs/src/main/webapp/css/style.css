@@ -1,0 +1,117 @@
+body {
+	background-color: black;
+	margin: 5px;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	background-color: black;
+	color: #fff;
+	
+	margin:0;
+	padding:0;
+}
+
+hr{
+	margin: 10px 0px;
+}
+
+h1,h2 {
+	margin-bottom: 4px;
+	white-space: nowrap;
+	cursor: default;
+}
+/*$page*/
+
+
+/************************
+*						*
+*		TABLE			*				
+*						*
+************************/
+/**/
+table {
+	margin: auto;
+	justify-content: center;
+	align-items:center;
+	
+	border-collapse: collapse;
+	letter-spacing: 1px;
+	font-size: 0.8rem;
+}
+
+td, th {
+	width: 300px;
+	padding: 10px 20px;
+}
+
+th {
+	cursor: default;
+	border: 1px solid rgb(190, 190, 190);
+}
+
+td {
+	text-align: center;
+	white-space: nowrap;
+	transition: all 0.2s;
+}
+td:first-child{
+	padding-inline-start: 2em;
+	text-align: start;
+}
+
+td:hover {
+	color: lime;
+	background-color: rgba(230, 230, 230, 0.1);
+	cursor: pointer;
+	transition: all 0.2s;
+}
+/*$page*/
+
+
+/************************
+*						*
+*		FORMS			*				
+*						*
+************************/
+/**/
+form {
+	display: inline-block;
+	
+	border-right: 1px solid #fff;
+	
+	height: auto;
+	padding-right: 10px;
+	margin: 6px 10px 0 0;
+}
+
+.btn {
+	border: 1px solid lime;
+	background-color: lime;
+	color: rgb(0,0,0);
+	
+	text-align: center;
+	
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+	text-transform:uppercase;
+	
+	display: inline-block;
+	
+	padding: 1px 8px;
+	
+	margin: 4px 2px;
+}
+.btn-hover {
+	transition-duration: 0.4s;
+}
+.btn-hover:hover {
+	color: #fff;
+	background-color: black;
+}
+/*$page*/
